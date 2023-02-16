@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: CONFIGCLIENTSERVICE
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
