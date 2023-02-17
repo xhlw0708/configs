@@ -2,10 +2,8 @@ server:
   port: 8080
 
 spring:
-  profiles:
-    active: dev
   rabbitmq:
-    host: 43.138.194.150
+    host: localhost
     port: 5672
     username: config
     password: config
